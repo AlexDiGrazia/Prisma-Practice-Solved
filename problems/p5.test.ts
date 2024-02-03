@@ -6,7 +6,7 @@ import { getAllMoviesWithAverageScoreOverN } from "./p5";
 import { groupBy, map, pipe, reduce, sortBy, sumBy } from "remeda";
 import { StarRating } from "@prisma/client";
 
-describe("p4", () => {
+describe("p5", () => {
   beforeEach(async () => {
     await clearDb();
   });
